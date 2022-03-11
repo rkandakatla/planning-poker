@@ -5,12 +5,12 @@ import { PlanningPokerStyles } from './planningPokerStyles';
 const EXTENSION_ID = 'aha-develop.planning-poker';
 const FIELD_BASE = 'estimate';
 const ESTIMATES = {
-  '0': { color: '#666666', backgroundColor: '#f1f1f1' },
+  '1': { color: '#666666', backgroundColor: '#f1f1f1' },
   '2': { color: '#326601', backgroundColor: '#c7dbaf' },
   '4': { color: '#301c42', backgroundColor: '#e5dced' },
-  '6': { color: '#7d630b', backgroundColor: '#faebb9' },
-  '8': { color: '#c76d00', backgroundColor: '#fcddb8' },
-  '10': { color: '#992e0b', backgroundColor: '#fac0af' },
+  '8': { color: '#7d630b', backgroundColor: '#faebb9' },
+  '16': { color: '#c76d00', backgroundColor: '#fcddb8' },
+  '32': { color: '#992e0b', backgroundColor: '#fac0af' },
 };
 const ESTIMATE_VALUES = Object.keys(ESTIMATES);
 
